@@ -4,11 +4,16 @@ background-repeat:no-repeat;
 background-size:100%;
 }
 .boxex{
-position: absolute;
-top: 50%;
+position:fixed;
+top: 60%;
 left:20%;
 right:20%;
 transform: translate(0, -50%);
 border: 5px solid orange;
-padding: 10px;
+padding-left:10px;
+padding-top:3px;
+}
+.gap{
+margin:5px;
+padding:5px;
 }

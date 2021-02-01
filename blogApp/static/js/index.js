@@ -18,7 +18,9 @@ console.log(url)
         if(data.text!=null){
       document.getElementById("five").innerText=data.text
         }
-
+        if(data.parent!=null){
+      document.getElementById("six").innerText=data.parent
+        }
         if(data.score!=null){
       document.getElementById("seven").innerText=data.score
         }
@@ -28,7 +30,9 @@ console.log(url)
         if(data.parts!=null){
       document.getElementById("nine").innerText=data.parts
         }
-
+         if(data.kids!=null){
+      document.getElementById("ten").innerText=data.kids
+        }
          if(data.url!=null){
       document.getElementById("eleven").innerText=data.url
         }
