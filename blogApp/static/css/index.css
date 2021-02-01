@@ -1,0 +1,14 @@
+body{
+background: url("/static/imagefolder/main.png") 50% 0 no-repeat fixed;
+background-repeat:no-repeat;
+background-size:100%;
+}
+.boxex{
+position: absolute;
+top: 50%;
+left:20%;
+right:20%;
+transform: translate(0, -50%);
+border: 5px solid orange;
+padding: 10px;
+}
