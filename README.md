@@ -1,5 +1,5 @@
 # Dynamicblogs
-
+Please make sure you have django 1.11 already installed and also python in your system 
 
 1. For going to the admin section
 
@@ -8,13 +8,13 @@ password-  Wesite1@
 
 
 2. For runnging the app (Follow these steps)
-a. first go to any folder then run the command
- git clone https://github.com/Piyushyadav1001/Dynamicblogs.git
+a. first go to any folder then run the command( which is inside double cots)
+"" git clone https://github.com/Piyushyadav1001/Dynamicblogs.git ""
 
-b. then run the command
+b. then run the command ( for going inside main folder)
 cd Dynamicblogs/
 
-c. then run the server by using this commmand
+c. then run the server by using this commmand( for running app on server)
 python manage.py runserver 
 
 d. then go to chrome url and type the url
